@@ -23,7 +23,7 @@ st.set_page_config(
 # --------------------------------------------------
 
 model = xgb.XGBClassifier()
-model.load_model("/content/diabetes_xgboost_model.json")
+model.load_model("diabetes_xgboost_model.json")
 
 
 # --------------------------------------------------
